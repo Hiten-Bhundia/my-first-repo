@@ -1,8 +1,14 @@
 
-
+let saveButton;
 
 function setup() {
     createCanvas(800, 600);
+    saveButton = createButton ('Save To JSON');
+    saveButton.position(windowWidth/2, windowHeight*0.75);
+    saveButton.mousePressed(() => {
+    saveJSON(allData, 'hiten-json');
+    console.log(`Saved ${allData.length} readings to file!`);
+});
 }
 
 function draw() {
@@ -20,6 +26,13 @@ function draw() {
     radialGradientCircle(400, 300, 50, color(255, 0, 0), color(0, 0, 255));
     radialGradientCircle(400, 500, 100, color(0, 0, 255), color(255, 0, 0));
 
+    rect(200, 300, 400, 50);
+    
+    rect(200, 300, 400, 50);
+
+
+
+
 }
 
 function radialGradientCircle(x, y, d, innerCol, outerCol) {
@@ -31,3 +44,5 @@ function radialGradientCircle(x, y, d, innerCol, outerCol) {
   
   }
 }
+
+
