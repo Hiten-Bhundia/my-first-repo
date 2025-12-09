@@ -4,4 +4,7 @@ function setup() {
 
 function draw() {
     background(220);
+    textSize(20);
+    fill(0);
+    text("Hiten Bhundia", 50, 50);
 }
