@@ -1,3 +1,6 @@
+
+
+
 function setup() {
     createCanvas(800, 600);
 }
@@ -7,4 +10,6 @@ function draw() {
     textSize(20);
     fill(0);
     text("Github Collaborative Data Drawing Task", 50, 50);
+
+    //draw 2 circles
 }
