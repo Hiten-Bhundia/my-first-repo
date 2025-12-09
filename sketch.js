@@ -6,5 +6,5 @@ function draw() {
     background(220, 0, 0);
     textSize(20);
     fill(0);
-    text("Hiten Bhundia", 50, 50);
+    text("Github Collaborative Data Drawing Task", 50, 50);
 }
